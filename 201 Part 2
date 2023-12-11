@@ -1,0 +1,70 @@
+import random
+import pygame
+import sys
+
+class Main:
+
+    def __init__(self, width, heigth,player):
+
+        self.width = width
+        self.heigth = heigth
+        self.enemy_list = []
+        self.power_up_list = []
+        self.player = player
+        self.bullet_list = []
+        self.event_list = pygame.event.get()
+        
+    def start_game(self):
+        
+        pass
+    
+    def game_loop(self):
+        
+        pass
+
+
+    def update_game(self):
+
+        pass
+
+    def create_enemy1(self):
+
+        pass
+
+    def create_enemy2(self):
+        pass
+            
+    def create_live_up(self):
+
+        pass
+
+    def create_doublepoint(self):
+        pass
+
+    def create_bullet(self):
+        
+       pass
+
+    def check_location_up(self, obj):
+
+        pass
+
+    def check_location_down(self, obj):
+        pass
+        
+    def check_location_right(self):
+
+        pass
+        
+    def check_location_left(self):
+
+        pass
+
+    def erase_object(self, obj):
+
+        pass
+
+    def move_elements(self):
+
+        pass
+            
